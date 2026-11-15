@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "elh-vpn": {
+      "url": "https://vpn.easylifehub.net/wp-json/elh-vpn/v1/mcp",
+      "headers": { "Authorization": "Bearer ${env:ELH_AGENT_KEY}" }
+    }
+  }
+}

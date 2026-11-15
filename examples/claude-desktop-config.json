@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "elh-vpn": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://vpn.easylifehub.net/wp-json/elh-vpn/v1/mcp",
+        "--header", "Authorization:Bearer ${ELH_AGENT_KEY}"
+      ],
+      "env": { "ELH_AGENT_KEY": "elh_ak_REPLACE_WITH_YOUR_KEY" }
+    }
+  }
+}

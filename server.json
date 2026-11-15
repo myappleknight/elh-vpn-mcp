@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.myappleknight/elh-vpn-cloud",
+  "title": "ELH VPN Cloud",
+  "description": "Let AI agents open short-lived, capped HTTPS proxy sessions on a member's own prepaid VPN data.",
+  "version": "0.8.0",
+  "websiteUrl": "https://vpn.easylifehub.net",
+  "repository": { "url": "https://github.com/myappleknight/elh-vpn-mcp", "source": "github" },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vpn.easylifehub.net/wp-json/elh-vpn/v1/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <agent key starting with elh_ak_>, created by the member in the member center. Not needed for get_plans / get_regions.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
