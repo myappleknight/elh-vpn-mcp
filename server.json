@@ -3,9 +3,12 @@
   "name": "io.github.myappleknight/elh-vpn-cloud",
   "title": "ELH VPN Cloud",
   "description": "Let AI agents open short-lived, capped HTTPS proxy sessions on a member's own prepaid VPN data.",
-  "version": "0.8.0",
+  "version": "0.8.3",
   "websiteUrl": "https://vpn.easylifehub.net",
-  "repository": { "url": "https://github.com/myappleknight/elh-vpn-mcp", "source": "github" },
+  "repository": {
+    "url": "https://github.com/myappleknight/elh-vpn-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
@@ -17,6 +20,15 @@
           "isRequired": false,
           "isSecret": true
         }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/myappleknight/elh-vpn-mcp/main/assets/icon-256.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "256x256"
       ]
     }
   ]
