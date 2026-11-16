@@ -1,5 +1,7 @@
 # ELH VPN Cloud — MCP server & Agent API
 
+[![mcptry](https://mcptry.com/badge/io.github.myappleknight/elh-vpn-cloud)](https://mcptry.com/servers/io.github.myappleknight/elh-vpn-cloud)
+
 [繁體中文](README.zh-TW.md)
 
 **ELH VPN Cloud** is a prepaid, no-auto-renewal VPN (WireGuard, Android app; browser extension coming). Members get a small free allowance every day. This repo shows how **AI agents** can use it safely through a hosted **MCP server** and a small REST API.

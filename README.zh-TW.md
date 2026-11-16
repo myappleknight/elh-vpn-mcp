@@ -1,5 +1,7 @@
 # ELH VPN Cloud — MCP 伺服器與代理人 API
 
+[![mcptry](https://mcptry.com/badge/io.github.myappleknight/elh-vpn-cloud)](https://mcptry.com/servers/io.github.myappleknight/elh-vpn-cloud)
+
 [English](README.md)
 
 **ELH VPN Cloud** 是小額預付、不自動續扣的 VPN（WireGuard 加密，Android App；瀏覽器擴充即將推出）。註冊會員每天有免費額度。本專案示範 **AI 代理人** 如何透過我們託管的 **MCP 伺服器** 與 REST API 安全地使用服務。
